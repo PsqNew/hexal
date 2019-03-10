@@ -173,6 +173,9 @@ footer {
     left: 112px;
 }
 .info-text h1{
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
   font-size: 2rem;
@@ -181,10 +184,24 @@ footer {
 }
 
 .info-text h3{
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
   font-size: 1rem;
   color: #228873;
+  text-align: justify;
+}
+
+.info-text p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: #b4eadf;
   text-align: justify;
 }
 
