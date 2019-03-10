@@ -1,0 +1,202 @@
+body{
+  width: 1020px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  height: fit-content;
+  font-size: 16px;
+  font-family: 'Lato-bolt', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.triangle{
+  position: relative;
+  left: 463px;
+  top: -76px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27px 47px 0 47px;
+  border-color: #323232 transparent transparent transparent;
+}
+
+.square{
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  margin:  -0.8px;
+  display: inline-block;
+}
+
+.square:hover{
+  background: #8b8784;
+  
+}
+
+.item-left{
+  padding: 10px;
+  display: inline-block;
+  font-size: 0.6rem;
+  position: relative;
+  left: 317px;
+  top: 21px;
+}
+
+.item-right{
+  font-size: 0.6rem;
+  padding: 9px;
+  display: inline-block;
+  position: relative;
+  left: 433px;
+  top: 20px;
+}
+
+.menu{
+  padding: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  height: 63px;
+}
+
+.menu a:hover {
+  color: #2eb398;
+}
+
+.item-link:visited {
+  color: #ffffff;
+}
+
+.item-link:link {
+  color: #ffffff
+  
+}
+
+.img-nav {
+  position: relative;
+  left: 477px;
+  top: -69px;
+}
+
+
+.navigation{
+  background:#323232;
+} 
+
+.square-position{
+  position: relative;
+  left: 31px;
+  top: -103px;
+}
+
+.button-submit{
+  background: #2eb398;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  width: 90px;
+  height: 37px;
+}
+
+.hexagon{
+ width: 180px;
+ height: 208px; 
+ margin: 8px;
+ transform: rotate(120deg);
+ overflow: hidden;
+ visibility: hidden;
+ display: inline-block;
+ cursor: pointer;
+}
+
+.hex-layer-1{
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-2{
+  width: 100%;
+  height: 100%;
+  background: #cccc;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-repeat: no-repeat;
+}
+
+.left-border{
+    border-left: 1px solid black;  
+
+    
+}
+
+.first-row .hexagon{
+  position: relative;
+  top: -22px;
+  left: 111px;
+}
+
+.second-row .hexagon { 
+  position: relative;
+    top: -80px;
+    left: 12px;
+}
+.third-row .hexagon{
+  position: relative;
+    top: -141px;
+    left: 112px;
+   
+}
+
+.info{
+  background: #2eb398;
+  position: relative;
+  top: -83px;
+  height: 341px;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.face-about .hexagon{
+  position: relative;
+    top: 21px;
+    left: 112px;
+}
+.info-text h1{
+  font-family: 'Maven Pro';
+  font-weight: initial;
+  font-size: 2rem;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+}
+
+.info-text h3{
+  font-family: 'Maven Pro';
+  font-weight: initial;
+  font-size: 1rem;
+  color: #228873;
+  text-align: justify;
+}
+
+.about {
+  font-family: 'Maven Pro', sans-serif;
+  background-image: url('../img/Image@1X.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -126px;
+  background-position-y: 0px; 
+}
+
+.in-touch-form{
+  background: #323232;
+}
