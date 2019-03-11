@@ -169,7 +169,7 @@ footer {
 
 .face-about .hexagon{
   position: relative;
-    top: 21px;
+    top: 59px;
     left: 112px;
 }
 .info-text h1{
@@ -178,18 +178,22 @@ footer {
   border: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: rgba(215, 252, 245, 255);
   text-align: justify;
 }
-
+.info-text h1, .info-text h3{
+  position: relative;
+  top: -168px;
+  left: 320px;
+}
 .info-text h3{
   margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #228873;
   text-align: justify;
 }
@@ -199,10 +203,14 @@ footer {
   padding: 0;
   border: 0;
   font-family: 'Lato';
-  font-weight: 100;
-  font-size: 0.8rem;
+  line-height: 22px;
+  letter-spacing: 0.32px;
+  font-size: 0.7rem;
   color: #b4eadf;
   text-align: justify;
+  position: relative;
+  left: 319px;
+  top: -155px;
 }
 
 .about {
@@ -214,6 +222,68 @@ footer {
   background-position-y: 0px; 
 }
 
+.social-link img{
+  margin: -2.2px;
+  position: relative;
+  top: -119px;
+  left: 755px;
+}
+
 .in-touch-form{
   background: #323232;
+}
+
+fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Maven Pro';
+  font-weight: initial;
+  color: white;
+  font-size: 1.5rem;
+  
+ }
+
+fieldset input{
+  background: #454545;
+  border: 0;
+  margin: 8px;
+  width: 580px;
+  height: 38px;
+  padding-left: 20px;
+  font-family: 'Maven Pro';
+  font-weight: initial;
+}
+
+fieldset textarea{
+  background: #454545;
+  border: 0;
+  margin: 8px;
+  width: 580px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'Maven Pro';
+  font-weight: initial;
+  resize: none;
+}
+
+fieldset h3{
+  border: 0;
+  font-family: 'Maven Pro';
+  font-weight: initial;
+  font-size: 0.8rem;
+  color: #e0e0e0;
+}
+
+.input-text{
+  background: #454545;
+  border: 0;
+  color: #e0e0e0;
+}
+
+footer{
+  position: relative;
+  top: -83px;
+  height: 564px;
 }
