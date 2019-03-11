@@ -1,3 +1,7 @@
+html{
+  height: 100%;
+}
+
 body{
   width: 1020px;
   
@@ -154,6 +158,9 @@ a {
   text-transform: uppercase;
   width: 90px;
   height: 37px;
+  position: relative;
+  top: -68px;
+  left: 610px;
 }
 
 .hexagon{
@@ -224,12 +231,6 @@ a {
   top: -97px;
 }
 
-footer {
-  margin: 0;
-  padding: 0;
-  bottom: 0;
-}
-
 .face-about .hexagon{
   position: relative;
     top: 59px;
@@ -292,30 +293,36 @@ footer {
   left: 755px;
 }
 
+.leg-h3{
+  position: relative;
+  left: 7px;
+  top: 4px;
+}
+
 .in-touch-form{
   background: #323232;
 }
 
 fieldset{
   border: 0;
-  margin: 0;
+  margin-bottom: 125px;
   padding: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 54px;
+  left: 112px;
  }
 
 fieldset input{
   background: #454545;
   border: 0;
-  margin: 8px;
-  width: 580px;
-  height: 38px;
-  padding-left: 20px;
+  margin: 7px;
+  width: 567px;
+  height: 37px;
+  padding-left: 13px;
   font-family: 'Maven Pro';
   font-weight: initial;
 }
@@ -323,11 +330,11 @@ fieldset input{
 fieldset textarea{
   background: #454545;
   border: 0;
-  margin: 8px;
-  width: 580px;
-  height: 150px;
-  padding-left: 20px;
-  padding-top: 20px;
+  margin: 6px;
+  width: 565px;
+  height: 139px;
+  padding-left: 13px;
+  padding-top: 13px;
   font-family: 'Maven Pro';
   font-weight: initial;
   resize: none;
@@ -335,9 +342,10 @@ fieldset textarea{
 
 fieldset h3{
   border: 0;
+  margin-top: 0px;
   font-family: 'Maven Pro';
   font-weight: initial;
-  font-size: 0.8rem;
+  font-size: 1.12rem;
   color: #e0e0e0;
 }
 
@@ -347,12 +355,24 @@ fieldset h3{
   color: #e0e0e0;
 }
 
-.footer{
-  position: relative;
-  top: -83px;
-  height: 564px;
+
+.social-network:hover{
+  border: 1px solid #228873;
 }
 
 footer{
-  
+  position: relative;
+  top: -86px;
+}
+
+.footer{
+  background: #222222;
+}
+
+.conteiner-footer{
+  width: 175px;
+  padding: 65px 0 0 0;
+  position: relative;
+  left: 1px;
+  top: 1px;
 }
