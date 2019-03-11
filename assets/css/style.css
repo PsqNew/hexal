@@ -1,5 +1,6 @@
 body{
   width: 1020px;
+  
   margin: 0 auto;
   padding: 0;
   border: 0;
@@ -7,6 +8,60 @@ body{
   font-size: 16px;
   font-family: 'Lato-bolt', sans-serif;
   font-weight: bold;
+}
+
+.hr-left{
+  border-bottom: 1px solid #e4e9eb;
+  width: 415px;
+  position: relative;
+  left: 25px;
+  top: -91px;
+}
+
+.hex-hr-left{
+  border-left: 1px solid #e4e9eb;
+  height: 104px;
+  position: relative;
+  left: 99px;
+  top: -82px;
+  display: inline-block;
+  
+}
+
+.hex-hr-right{
+  border-right: 1px solid #e4e9eb;
+  height: 104px;
+  position: relative;
+  left: 122px;
+  top: -83px;
+  display: inline-block;
+  
+}
+
+.hex-hr-left-third{
+  border-left: 1px solid #e4e9eb;
+  height: 104px;
+  position: relative;
+  left: 99px;
+  top: -203px;
+  display: inline-block;
+}
+
+.hex-hr-right-third{
+  border-left: 1px solid #e4e9eb;
+  height: 104px;
+  position: relative;
+  left: 122px;
+  top: -203px;
+  display: inline-block;
+}
+
+.hr-right{
+  border-bottom: 1px solid #e4e9eb;
+  width: 415px;
+  position: relative;
+  left: 576px;
+  top: -92px;
 }
 
 a {
@@ -157,8 +212,16 @@ a {
 .info{
   background: #2eb398;
   position: relative;
-  top: -83px;
+  top: -86px;
   height: 341px;
+}
+
+.hr-slider{
+  border-bottom: 1px solid #e4e9eb;
+  width: 960px;
+  position: relative;
+  left: 31px;
+  top: -97px;
 }
 
 footer {
@@ -241,7 +304,9 @@ fieldset{
   font-weight: initial;
   color: white;
   font-size: 1.5rem;
-  
+  position: relative;
+  top: 0px;
+  left: 0px;
  }
 
 fieldset input{
@@ -282,8 +347,12 @@ fieldset h3{
   color: #e0e0e0;
 }
 
-footer{
+.footer{
   position: relative;
   top: -83px;
   height: 564px;
+}
+
+footer{
+  
 }
