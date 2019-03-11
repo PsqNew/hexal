@@ -3,12 +3,12 @@ html{
 }
 
 body{
-  width: 1020px;
   
+  height: fit-content;
+  width: 1020px;
   margin: 0 auto;
   padding: 0;
   border: 0;
-  height: fit-content;
   font-size: 16px;
   font-family: 'Lato-bolt', sans-serif;
   font-weight: bold;
@@ -70,6 +70,7 @@ body{
 
 a {
   text-decoration: none;
+  color: #e0e0e0;
 }
 
 .triangle{
@@ -126,11 +127,11 @@ a {
 }
 
 .item-link:visited {
-  color: #ffffff;
+  color: #e4e9eb;
 }
 
 .item-link:link {
-  color: #ffffff
+  color: #e4e9eb;
   
 }
 
@@ -154,13 +155,16 @@ a {
 .button-submit{
   background: #2eb398;
   border: none;
-  color: white;
+  color: #e4e9eb;
   text-transform: uppercase;
   width: 90px;
   height: 37px;
   position: relative;
   top: -68px;
   left: 610px;
+}
+.button-submit:hover{
+  background: #228873;
 }
 
 .hexagon{
@@ -192,12 +196,6 @@ a {
   background-repeat: no-repeat;
 }
 
-.left-border{
-    border-left: 1px solid black;  
-
-    
-}
-
 .first-row .hexagon{
   position: relative;
   top: -22px;
@@ -221,6 +219,7 @@ a {
   position: relative;
   top: -86px;
   height: 341px;
+  margin-bottom: -86px;
 }
 
 .hr-slider{
@@ -309,7 +308,7 @@ fieldset{
   padding: 0;
   font-family: 'Maven Pro';
   font-weight: initial;
-  color: white;
+  color: #e0e0e0;
   font-size: 1.85rem;
   position: relative;
   top: 54px;
@@ -360,19 +359,40 @@ fieldset h3{
   border: 1px solid #228873;
 }
 
-footer{
+.footer{
   position: relative;
   top: -86px;
+  margin-bottom: -326px;
 }
 
-.footer{
+.footer-copyright{
   background: #222222;
+  margin-bottom: -1px;
+  height: 43px;
+}
+
+.conteiner-footer span{
+  font-weight: bold;
 }
 
 .conteiner-footer{
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 0.85rem;
+  text-align: justify;
+  line-height: 21px;
+  color: #e0e0e0;
   width: 175px;
-  padding: 65px 0 0 0;
   position: relative;
-  left: 1px;
-  top: 1px;
+  left: 720px;
+  top: -454px;
+}
+.contact-data img {
+  padding-right: 8px;
+}
+.contact-data p {
+  margin-bottom: 0px;
+}
+.contact-data a {
+  padding-right: 3px;
 }
